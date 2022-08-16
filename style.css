@@ -5,19 +5,46 @@
 }
 
 nav {
-    background-color: #222222;
+    background-color: transparent;
+    position: absolute;
     font-size: larger;
     height: 145px;
     
 }
 
+.navbar-item {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
 .logo {
     width: 153px;
     height: 153px;
+    position: absolute;
+}
+
+.facebook-icon {
+    width: 28px;
+    height: 28px;
+
+}
+
+.facebook {
+    fill: #7ed857;
+}
+
+.instagram-icon {
+    width: 32px;
+    height: 32px;
+    
+}
+
+.insta {
+    fill: #7ed857;
 }
 
 .main {
-    background-color: burlywood;
+    background-image: radial-gradient(circle at 96% -23%, #282B26 0%, #141414 96%);
     height: 100vh;
     width: 100vw;
 }
