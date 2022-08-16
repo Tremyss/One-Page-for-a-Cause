@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: #222222;
+    font-size: larger;
+    height: 145px;
+    
+}
+
+.logo {
+    width: 153px;
+    height: 153px;
+}
+
 .main {
     background-color: burlywood;
     height: 100vh;
