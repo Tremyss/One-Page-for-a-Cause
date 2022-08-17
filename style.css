@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-image: radial-gradient(circle at 96% -23%, #282B26 0%, #141414 96%);
-    height: 100vh;
-    width: 100vw;
+    background: radial-gradient(circle at 96% -23%, #282B26 0%, #141414 96%) fixed;
+    
 }
 
 nav {
@@ -21,7 +21,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    z-index: 2;
+    position: relative;
 }
 
 .navbar-item {
@@ -52,7 +53,6 @@ nav {
     text-decoration-thickness: 3px;
     color: #7ed857;
     transition: ease-out 0.5s;
-    
 }
 
 .social_nav {
@@ -93,6 +93,86 @@ ul {
 li {
     margin-left: 60px;
     text-decoration: none;
+    letter-spacing: .8px;
+    text-transform: uppercase;
 }
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 120px;
+    max-height: 100vh;
+}
+
+.main-page-pic {
+    max-width: 600px;
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: -1050px;
+    left: -300px;
+    z-index: 1;
+}
+
+.midContent {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.left {
+    width: 590px;
+    
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 400px;
+    max-width: 1000px;
+
+}
+
+h1 {
+    font-size: 122px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    line-height: 120px;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main-paragraph-01 {
+    font-weight: 700;
+}
+
+.joinUs {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    width: 300px;
+    border-radius: 13px;
+    background: transparent;
+    border: 3px solid #7ed857;
+    color: #7ed857;
+    padding: 10px;
+    margin-top: 50px;
+}
+
 
 
