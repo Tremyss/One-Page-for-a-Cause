@@ -294,7 +294,7 @@ p {
 
 @media screen and (max-width: 1565px) {
     .left {
-        padding-top: 80px;
+        padding-top: 50px;
         min-width: 350px;
         max-width: 550px;
     }
@@ -305,19 +305,19 @@ p {
     }
 
 .text_box {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 31px;
     line-height: 120px;
 }
 
 
 p {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 22px;
+    line-height: 30px;
 
 }
 
@@ -336,7 +336,7 @@ p {
     }
 
 .text_box {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 
@@ -348,7 +348,7 @@ h1 {
 
 p {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 29px;
 
 }
 
