@@ -229,32 +229,34 @@ p {
 
 @media screen and (max-width: 2000px) {
     .left {
-        padding-top: 80px;
+        padding-top: 40px;
+        margin-left: 40px;
         min-width: 400px;
         max-width: 700px;
     }
 
     .right {
-        padding-right: 200px;
+        padding-right: 140px;
+        padding-top: 40px;
     }
 
 
 }
 
 .text_box {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 46px;
     line-height: 180px;
 }
 
 
 p {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 27px;
+    line-height: 36px;
 
 }
 
