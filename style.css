@@ -11,7 +11,6 @@
 body {
     position: relative;
     background: radial-gradient(circle at 96% -23%, #282B26 0%, #141414 96%) fixed;
-    height: 100vh;
     overflow: hidden;
 }  
 
@@ -114,7 +113,6 @@ li {
 }
 
 .main-page-pic {
-    min-width: 800px;
     max-width: 100%;
     transform: scaleX(-1);
 }
@@ -132,15 +130,15 @@ li {
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 400px;
-    max-width: 1000px;
     padding-top: 100px;
     padding-right: 100px;
 
 }
 
+
 h1 {
-    font-size: 122px;
+    /* font-size: 122px; */
+    font-size: 8vw;
     font-family: 'Abril Fatface';
     font-weight: 400;
     line-height: 120px;
@@ -183,3 +181,20 @@ p {
     color: #282B26;
 
 }
+
+@media screen and (max-width: 1439px) {
+    
+    h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    h2 {
+        font-size: 65px;
+        
+    }
+
+    p {
+        font-size: 30px;
+    }
+  }
